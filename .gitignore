@@ -1,0 +1,11 @@
+#linux
+.directory
+*~
+
+#npm
+node_modules
+logs
+coverage
+*.log
+*.gz
+.grunt
