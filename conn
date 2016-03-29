@@ -1,0 +1,19 @@
+Host
+ec2-54-235-199-36.compute-1.amazonaws.com
+Database
+dd80hma7t1js9k
+User
+ptndletrtubekd
+Port
+5432
+Password
+Hide 48oqh7jWDsVRddVmj0oSfki25X
+Psql
+heroku pg:psql --app appdesigner DATABASE
+URL
+Hide postgres://ptndletrtubekd:48oqh7jWDsVRddVmj0oSfki25X@ec2-54-235-199-36.compute-1.amazonaws.com:5432/dd80hma7t1js9k
+
+DUMP CURRENT DB TO OUTFILE:
+pg_dump -h localhost -U app_rw mydb  --no-acl --no-owner  -f dump_myapp.sql
+
+ psql -U ptndletrtubekd -h ec2-54-235-199-36.compute-1.amazonaws.com dd80hma7t1js9k -f dump_myapp.sql

@@ -1,9 +1,9 @@
 
   "db": {
-    "host": "localhost",
+    "host": "ec2-54-235-199-36.compute-1.amazonaws.com",
     "port":5432,
-    "name": "mydb",
-    "user": "app_ro",
-    "pass": "myPassword"
+    "name": "dd80hma7t1js9k",
+    "user": "ptndletrtubekd",
+    "pass": "48oqh7jWDsVRddVmj0oSfki25X"
   }
 }
