@@ -1,8 +1,7 @@
 #linux
 .directory
 *~
-./conn
-config/production.json
+
 
 #npm
 node_modules
@@ -11,3 +10,6 @@ coverage
 *.log
 *.gz
 .grunt
+
+
+config/
