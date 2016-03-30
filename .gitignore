@@ -1,6 +1,8 @@
 #linux
 .directory
 *~
+conn
+production.json
 
 #npm
 node_modules

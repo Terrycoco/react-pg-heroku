@@ -1,7 +1,7 @@
 {
-  "name": "myapp",
+  "name": "react-pg-heroku",
   "version": "1.0.0",
-  "description": "practice pg to heroku",
+  "description": "react pg to heroku",
   "main": "entry.js",
   "private": "true",
   "scripts": {
